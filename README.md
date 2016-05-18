@@ -14,7 +14,7 @@ We've used Angular's built-in services already, but wouldn't it be cool if we co
 
 ## Custom Services
 
-Angular allows us, much like controllers, to create custom services. These are very powerful and can do a lot for us, such as communicating with APIs or manipulating data. We can inject these into any controller we'd like too, meaning we won't be repeating ourselves.
+Angular allows us, much like controllers, to create custom services. These are very powerful and can do a lot for us, such as communicating with APIs or manipulating data. We can inject these into any controller we'd like to, meaning we won't be repeating ourselves.
 
 This fits perfectly into our "MVVM" pattern. We can create services (our helpers) to do all the "dirty" work for us (communicate with APIs, etc), and we can then utilise them in our controllers. This keeps our controllers thin and all the business logic inside our services.
 
@@ -67,3 +67,5 @@ angular
 ```
 
 Simple!
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/angular-what-is-a-custom-service-readme'>What Is A Custom Service</a> on Learn.co and start learning to code for free.</p>
